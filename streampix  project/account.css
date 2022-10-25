@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans+Condensed:wght@300&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #141414;
+    color: #f5f5f5;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+main {
+    margin: 40px;
+}
+
+.qes {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #fefefe;
+}
+
+.profile {
+    padding-left: 5px;
+}
+
+.content-img {
+    border-style: solid;
+    border-color: #141414;
+    border-radius: 8px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.content-img:hover {
+    background-color: #e4e4e4;
+    border-color: #e4e4e4;
+}
+
+.name-profile {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #7f7f7f;
+    font-weight: 900;
+    font-size: 13pt;
+    padding-top: 6px;
+}
+
+.name-profile:hover{
+    color: #fff;
+}
+
+.content-botao{ 
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    margin: -90px; 
+    margin-top: -10px;
+    left: 50%;
+    color: #7f7f7f;
+    background-color: transparent;
+    border-width: 0.9px;
+    width: 200px;
+    height: 30px;
+    font-size: 13pt;
+    letter-spacing: 4px;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.content-botao:hover{
+    color: #fefefe;
+    border-color: #fefefe;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+}
+
+.noti{
+    text-decoration: none;
+    color: #fff;
+    background-color: #080808;
+    width: 550px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #080808 ;
+}
+
+.noti:hover{
+    background-color:#141414 ;
+}
+
+.noti-img{
+    width: 250px;
+}
+
+.tab{
+    position: absolute;
+    top: 330px;
+    font-size: 13pt;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.tab1{
+    position: absolute;
+    top: 560px;
+    font-size: 13pt;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 760px;
+    left: 35%;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 820px;
+    left: 35%;
+}
+
+.sec3{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 880px;
+    left: 35%;
+}
+
+#out{
+    width: 100px;
+    height: 40px;
+    background-color: #141414;
+    border-color: white;
+    color: #7f7f7f;
+    position: relative;
+    left: 1400px;
+}
+
+#out:hover{
+    color: #fefefe;
+    border-color: #fefefe;
+}

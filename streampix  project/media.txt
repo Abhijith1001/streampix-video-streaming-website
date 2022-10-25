@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+  .bg_img {
+    height: 100vh;
+  }
+
+  .bg_overlay {
+    height: 100vh;
+  }
+
+  .hero_card {
+    top: 40%;
+    left: 30%;
+    transform: translate(-20%, -20%);
+  }
+
+  .hero_h1 {
+    font-size: 3rem;
+  }
+
+  .hero_p,
+  .hero_p1 {
+    font-size: 1.3rem;
+  }
+
+  .feature {
+    padding: 4rem;
+  }
+
+  .feature_title {
+    font-size: 35px;
+  }
+
+  .feature_subtitle {
+    font-size: 20px;
+  }
+
+  .feature2_container {
+    max-width: 26em;
+    height: 85px;
+  }
+
+  .poster__container {
+    width: 15%;
+  }
+
+  .download__gif__container {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .poster__details>h4 {
+    font-size: 18px;
+  }
+
+  .poster__details>h6 {
+    font-size: 14px;
+  }
+}

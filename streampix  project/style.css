@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
+
+
+.top-left {
+  float: left;
+}
+
+#logo {
+  width: 300px;
+  height: 370px;
+  position: absolute;
+  top: -70px;
+  left: 50px;
+  z-index: 10;
+}
+
+.top-right {
+  float: left;
+  margin-left: 900px;
+  margin-top: 50px;
+  position: absolute;
+  top: 15px;
+  left: 650px;
+  z-index: 10;
+}
+
+
+
+.bg_img {
+  width: 100%;
+  height: 100vh;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bg_overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%);
+}
+
+.hero_h1 {
+  position: absolute;
+  bottom: 550px;
+  left: 700px;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.hero_p {
+  position: absolute;
+  bottom: 510px;
+  left: 800px;
+  font-size: 20px;
+}
+
+.hero_p1 {
+  position: absolute;
+  bottom: 480px;
+  left: 660px;
+  font-size: 20px;
+}
+
+.hero_box {
+  position: absolute;
+  bottom: 440px;
+  left: 730px;
+  width: 375px;
+  height: 45px;
+}
+
+.hero_b1 {
+  position: absolute;
+  bottom: 440px;
+  left: 1106px;
+  width: 150px;
+  height: 45px;
+  background-color: red;
+  border: 1px solid #dc030f;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 2px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+
+
+.feature {
+  padding: 70px 45px;
+  height: 475px;
+}
+
+.feature_details {
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+.feature_title {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.feature_subtitle {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.feature_img {
+  float: left;
+  width: 50%;
+  position: relative;
+  bottom: 60px;
+}
+
+.feature__image {
+  width: 60%;
+}
+
+.feature_video {
+  position: absolute;
+  width: 50%;
+  top: 21%;
+  left: 8%;
+  z-index: -2;
+}
+
+.feature__backgroud__video {
+  width: 87%;
+}
+
+.feature2_container {
+  position: absolute;
+  bottom: 8%;
+  left: 30%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 20em;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  height: 80px;
+  padding: 0.25rem 0.6rem;
+  gap: 15px;
+}
+
+.poster__container {
+  width: 20%;
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+}
+
+.poster__details {
+  width: 60%;
+}
+
+.poster__details>h4 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.poster__details>h6 {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(63, 63, 246);
+}
+
+.download__gif__container {
+  width: 20%;
+  height: 100%;
+}
+
+.gif {
+  width: 100%;
+  height: 100%;
+}
+
+.feature3_video {
+  position: absolute;
+  width: 50%;
+  top: 7%;
+  left: 11%;
+  z-index: -2;
+}
+
+.feature_3_video {
+  width: 76%;
+  height: 200px;
+}

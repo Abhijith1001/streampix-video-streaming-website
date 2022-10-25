@@ -1,0 +1,193 @@
+.navbar {
+    width: 1860px;
+    height: 91px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.navbar_left {
+    float: left;
+    width: 50%;
+    height: 91px;
+}
+
+.logo {
+    width: 300px;
+    height: 370px;
+    position: relative;
+    bottom: 135px;
+}
+
+.navbar_right {
+    float: left;
+    width: 50%;
+    height: 91px;
+}
+
+.btn {
+    font-size: 19px;
+    background-color: #fff;
+    border: none;
+    width: 90px;
+    height: 60px;
+    position: relative;
+    left: 800px;
+    cursor: pointer;
+}
+
+.content {
+    width: 800px;
+    height: 700px;
+    position: relative;
+    left: 25%;
+}
+
+.content_detail {
+    width: 800px;
+    height: 490px;
+    position: relative;
+    top: 4%;
+    font-size: 18px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+
+.content_details {
+    width: 800px;
+    height: 490px;
+    position: relative;
+    top: 4%;
+    font-size: 18px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn1 {
+    background-color: red;
+    color: #fff;
+    border-radius: 4px;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+hr {
+    background-color: #ccc;
+}
+
+.default {
+    border-color: #e7e7e7;
+    color: black;
+}
+
+.btn2 {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 16px 28px;
+    width: 470px;
+    border-radius: 5px;
+    margin-left: 180px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.price {
+    position: relative;
+    left: 350px;
+    height: 100px;
+    width: 120px;
+    color: #fff;
+    background-color: red;
+    font-weight: bolder;
+    font-size: small;
+    border: none;
+    translate: 25px 25px;
+}
+
+.price:hover {
+    scale: 1.25
+}
+
+.sub {
+    position: relative;
+    left: 280px;
+}
+
+.sub1 {
+    position: relative;
+    left: 380px;
+}
+
+.sub2 {
+    position: relative;
+    left: 290px;
+}
+
+.sub3 {
+    position: relative;
+    left: 390px;
+}
+
+.sub4 {
+    position: relative;
+    left: 310px;
+}
+
+.sub5 {
+    position: relative;
+    left: 410px;
+}
+
+.sub6 {
+    position: relative;
+    left: 155px;
+}
+
+.sub7 {
+    position: relative;
+    left: 230px;
+}
+
+.text {
+    width: 350px;
+    height: 50px;
+}
+
+.btnstart {
+    color: #fff;
+    background-color: red;
+    border-radius: 7px;
+    border: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.btnstart:hover {
+    background-color: rgb(156, 33, 33);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+
+}
+
+a:hover {
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    background: none;
+    cursor: pointer;
+}
